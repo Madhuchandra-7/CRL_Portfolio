@@ -45,7 +45,7 @@
   });
 
   function php_email_form_submit(thisForm, action, formData) {
-    const scriptURL = 'https://script.google.com/macros/s/1jGGzf14eDC8zQAMC5UWDMl8y0pU2p7KegbE0qEE3NHRiR9kKIUsVbpUq/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyktHrYXw5I9jvssb6EFwAV49kD_gW_pcFvH7WVTLwZIDdqGWU5smQTxRtPd7M2ycJ9KA/exec'
     fetch(scriptURL, { method: 'POST', body: new FormData(thisForm) })
       .then(response => {
         thisForm.querySelector('.loading').classList.remove('d-block');
