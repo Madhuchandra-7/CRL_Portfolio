@@ -789,6 +789,8 @@ section {
 .clients .clients-wrap {
   border-top: 1px solid #e7e7e7;
   border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .clients .client-logo {
@@ -796,8 +798,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
   overflow: hidden;
   background: #fff;
   height: 140px;
@@ -1026,7 +1026,7 @@ section {
   padding: 30px 30px 0 30px;
   margin: 30px 15px;
   text-align: center;
-  min-height: 200px;
+  min-height: 250px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 
